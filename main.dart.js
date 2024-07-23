@@ -49289,7 +49289,7 @@ o=t.N
 m=t.z
 h=B.aNi(B.ap(["Content-Type","application/json","Accept","application/json","Authorization","Basic "+A.dR.go1().b3(p)],o,m))
 p=t.m0
-o=B.ap(["Messages",B.a([B.ap(["From",B.ap(["Email","pilot@11pay.fr","Name","Mailjet Pilot"],o,o),"To",B.a([B.ap(["Email","k.tisserand@outlook.fr","Name","passenger 1"],o,o)],p),"Subject","Your email flight plan!","TextPart","Dear passenger 1, welcome to Mailjet! May the delivery force be with you!","HTMLPart",'<h3>Dear passenger 1, welcome to <a href="https://www.mailjet.com/">Mailjet</a>!</h3><br />May the delivery force be with you!',"Attachments",B.a([B.ap(["ContentType","application/pdf","Filename","commande.pdf","Base64Content",j],o,o)],p)],o,t.K)],t.Mq)],o,t.JD)
+o=B.ap(["Messages",B.a([B.ap(["From",B.ap(["Email","pilot@11pay.fr","Name","Mailjet Pilot"],o,o),"To",B.a([B.ap(["Email","gregoire@stepcom.fr","Name","passenger 1"],o,o)],p),"Subject","Your email flight plan!","TextPart","Dear passenger 1, welcome to Mailjet! May the delivery force be with you!","HTMLPart",'<h3>Dear passenger 1, welcome to <a href="https://www.mailjet.com/">Mailjet</a>!</h3><br />May the delivery force be with you!',"Attachments",B.a([B.ap(["ContentType","application/pdf","Filename","commande.pdf","Base64Content",j],o,o)],p)],o,t.K)],t.Mq)],o,t.JD)
 h.a="POST"
 s=4
 return B.Q(i.J_(0,"https://api.mailjet.com/v3.1/send",null,o,null,null,h,null,m),$async$pA)
